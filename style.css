@@ -71,7 +71,9 @@ section .container .col-md-4,#testimonials,#press,#pricing,#footer{
         position: static;
         transform: rotate(0deg);
     }
+  
 }
+
 
 /* features section */
 #features{
@@ -143,7 +145,7 @@ color: #ef8172;
 }
 
 #pricing h2{
- font-size: 3rem;
+ font-size: 50px;
  font-weight: 600;
  animation: headingAnim 2s linear infinite alternate;
 }
@@ -188,4 +190,30 @@ color: #ef8172;
 .contact p{
     margin: 1% 0;
     font-weight: lighter;
+}
+
+
+
+
+@media (max-width:450px)
+{
+    #testimonials h2{
+        font-size: 150%;
+    }
+    #header h1{
+        font-size: 2rem;
+    }
+    #press a img {
+        width: 24%;
+    }
+    #pricing h2{
+        font-size: 30px;
+       }
+       
+    #footer h2 {
+        font-size: 2rem;
+    }
+    .card-body{
+        padding: 0px;
+    }
 }
